@@ -7,8 +7,21 @@ h1, .emoji{
     font-size: 400%;
 }
 
+.emoji:hover {
+    animation: bounce 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes bounce {
+    0% { transform: translate(0px, 0px); }
+    50% { transform: translate(0px, -25px); }
+    100% { transform: translate(0px, 0px); } 
+}
+
 .emoji {
     animation: wiggle 2s;
+    animation-timing-function: ease;
 }
 
 @keyframes wiggle {
