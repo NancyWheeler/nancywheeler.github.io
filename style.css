@@ -4,7 +4,6 @@ body {
 }
 
 h1{
-    text-align: center;
     font-size: 400%;
 }
 
@@ -13,5 +12,18 @@ h1{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100vh;
+    height: 95vh;
 }
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* @media (max-width: 800px){
+    .main-container .footer {
+        
+    }
+} */
